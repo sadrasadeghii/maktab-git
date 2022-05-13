@@ -1,0 +1,56 @@
+
+
+
+body {
+  height: 100vh;
+  width: 100%;
+  direction: rtl;
+}
+
+*{
+  font-family: 'IranSans';
+}
+
+.register-form {
+  direction: rtl;
+  background-color: whitesmoke;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 3px 3px rgb(216, 216, 216);
+  margin-top: 200px;
+}
+
+.register-form-header , .register-form-header h5 {
+  position: relative;
+  background-color: #147e75;
+  height: 50px;
+  margin: 0;
+  font-family: 'IranSans';
+  border-radius: 0.7rem 0.7rem 0 0;
+}
+
+.register-form-header svg {
+  right: 10px;
+  cursor: pointer;
+}
+
+.register-form-btn {
+  background-color: #1cb33d;
+  height: 40px;
+  border-radius: 0.3rem;
+  
+}
+
+.register-form-btn span {
+  font-family: 'IranSans';
+}
+
+
+.register-form-btn:disabled {
+  opacity: 0.7;
+}
+
+
+.alert {
+  right: 10%;
+  top: 50px;
+}

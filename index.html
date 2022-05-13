@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
+
+    <title>Document</title>
+    <link rel="stylesheet" href=".assets/css/style.css">
+    <link rel="stylesheet" href=".assets/css/bootstrap.css" />
+
+  </head>
+    <body class="d-flex flex-column">
+      <div id="alert" class="alert d-none alert-danger w-25 position-absolute" role="alert">
+        ارور داری
+      </div>
+      
+      <div id="register-form" class="bg-form w-100 align-items-center justify-content-center">
+        <section class="register-form w-25 mx-auto flex-column">
+          <div class="d-flex register-form-header align-items-center justify-content-center mb-3">
+            <h5 class="text-white d-flex align-items-center">فرم ثبت نام</h5>
+          </div>
+  
+          <div class="container d-flex flex-column w-100 gap-2">
+            <div class="input-field input-name d-flex flex-column gap-2">
+              <label for="">نام :</label>
+              <input data-type="text"  class="input form-control" type="text">
+              <span class="field-alert d-none text-danger">نام نمیتواند کمتر از سه کاراکتر باشد</span>
+            </div>
+            <div class="input-field input-name d-flex flex-column gap-2">
+              <label for="">نام خانوادگی :</label>
+              <input data-type="text" class="input form-control" type="text">
+              <span class="field-alert d-none text-danger">نام خانوادگی نمیتواند کمتر از سه کاراکتر باشد</span>
+            </div>
+            <div class="input-field input-name d-flex flex-column gap-2">
+              <label for="">شماره تلفن :</label>
+              <input data-type="number" class="input form-control" type="number">
+              <span class="field-alert d-none text-danger"> شماره تلفن نمیتواند کمتر از یازده کاراکتر باشد</span>
+            </div>
+            <div class="input-field input-name d-flex flex-column gap-2">
+              <label for="">ایمیل :</label>
+              <input data-type="email" class="input form-control" type="email">
+              <span class="field-alert d-none text-danger"> فرمت ایمیل نادرست است</span>
+            </div>
+            <button id="register-form-btn" class="border-0 register-form-btn mt-2 mb-3">
+              <span class="text-white">ثبت نام</span>
+            </button>
+          </div>
+        </section>
+      </div>
+
+
+
+
+
+
+
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+      <script src=".assets/js/script.js"></script>
+    </body>
+
+  </body>
+</html>
